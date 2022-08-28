@@ -1,0 +1,9 @@
+name: template-routeros-default
+description: Default template for Stack RouterOS
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
