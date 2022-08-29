@@ -51,6 +51,7 @@ After downloading Winbox, run it.
 | Password      | ``In Blank``      |
 
 Example:
+
 ![image](https://user-images.githubusercontent.com/135553/187108452-a666e9ee-6d8f-475f-b977-903f82db4905.png)
 
 ![image](https://user-images.githubusercontent.com/135553/187108527-b999d72f-852b-4b02-afde-862849722dd8.png)
