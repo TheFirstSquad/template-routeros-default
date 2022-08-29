@@ -6,4 +6,15 @@ inputs:
   - label: Project name
     type: text
     name: project_name
-    default: project-name
+    default: stackspot-routeros
+  - label: RouterOS Image Version
+    type: text
+    name: routeros_image_version
+    default: "latest"
+
+hooks:
+  - type: run
+    trigger: after-render
+    commands:
+      - "echo 'Running the Docker Compose :: Build...'"
+      - "docker-compose build"
