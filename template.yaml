@@ -1,4 +1,4 @@
-name: template-routeros-default
+name: default
 description: Default template for Stack RouterOS
 types:
   - app-template
